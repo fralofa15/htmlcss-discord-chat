@@ -1,10 +1,35 @@
-body {
-    background-color: black;
-}
-
 .main {
     display: flex;
     min-height: 100vh;
+    background-color: #1e1f29;
+    max-width: 512px;
+}
+
+.chat-search {
+    color: white;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    background-color: #3a3d4b;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px
+}
+
+.add {
+    background-color: #3a3d4b;
+    padding: 5px 100px;
+    border-radius: 15px;
+    gap: 15px;
+    text-align: center;
 }
 
 .sidebar {
